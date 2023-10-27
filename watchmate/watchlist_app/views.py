@@ -1,4 +1,4 @@
-from django.shortcuts import render
+"""from django.shortcuts import render
 from watchlist_app.models import Movie
 from django.http import JsonResponse
 # Create your views here.
@@ -14,3 +14,4 @@ def movie_detail(request,pk):
         'active':movie.active
         }  #Dictionnary
     return(JsonResponse(data))
+"""
